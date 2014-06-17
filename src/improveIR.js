@@ -1,6 +1,6 @@
 /*! improveIR.js © yamoo9.net, 2014
  *  CSS (on), Img (off) 로컬호스팅, 웹서버 환경에서만 테스팅 가능
- *  Windows High Contrast 모드 테스팅은 로컬 환경에서도 가능
+ *  Windows 고대비(High Contrast) 모드 테스팅은 로컬 환경에서도 가능
  */
 
 // 즉시 실행 함수 [전역을 오염시키지 않는 스코프 함수]
