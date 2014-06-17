@@ -3,11 +3,6 @@
  *  Windows High Contrast 모드 테스팅은 로컬 환경에서도 가능
  */
 
-// 참조URL
-// http://blog.paciellogroup.com/2011/10/detecting-if-images-are-disabled-in-browsers/
-// http://blog.paciellogroup.com/2012/08/notes-on-accessible-css-image-sprites/
-// http://blog.adrianroselli.com/2012/08/css-background-images-high-contrast-mode.html
-
 // 즉시 실행 함수 [전역을 오염시키지 않는 스코프 함수]
 (function(global, doc, undefined) {
 
