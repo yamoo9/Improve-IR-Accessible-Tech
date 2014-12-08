@@ -1,0 +1,30 @@
+// 이미지 대체 기법 Classes
+.ir
+	overflow: hidden
+	text-indent: -9999em
+
+// 텍스트만 화면에 표시
+.no-img .ir
+	overflow: auto
+	text-indent: 0
+	// 외형(모양)까지 화면에 표시
+	&.ir-look
+		display: inline-block
+		border: 1px solid
+		border-radius: 4px
+		transition: all 2s
+
+// 고대비 모드 사용자 메시지
+#win-HC-user-message
+	position: fixed
+	top: 0.5em
+	right: 0.5em
+	width: 21em
+	margin: 0
+	padding: 1em
+	background: #000
+	background: rgba(0, 0, 0, 0.8)
+	color: #fff
+	.no-img &
+		max-height: 55px
+		border: 1px solid
