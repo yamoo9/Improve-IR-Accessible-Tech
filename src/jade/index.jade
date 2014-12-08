@@ -1,0 +1,36 @@
+doctype
+html(lang="ko-KR")
+	head
+		meta(http-quiv="X-UA-Compatible", content="IE=Edge")
+		meta(charset="UTF-8")
+		title 이미지 대체 기법(IR) - 접근성 보완 JS
+		link(rel="stylesheet", href="css/style.css")
+		script(src="js/improveIR.min.js")
+
+	body
+
+		#win-HC-user-message 윈도우 운영체제 고대비 모드를 활성화한 경우, '새로고침(F5)'해야 감춰진 텍스트가 화면에 표시됩니다.
+
+		#demo
+			div
+				h2 IMG Element 사용
+				span 접근성 O | 성능 X
+				p.desc &lt;img&gt; 요소 사용시에는 Windows 고대비 모드(단축키: Alt + Shift + PrintSc)에서도 화면에 표시됩니다. 접근성에는 문제가 없지만, 전체적인 성능에서는 문제가 됩니다.
+				a(href="http://naver.com")
+					img(src="images/btn-search.jpg", alt="검색")
+			div
+				h2 CSS Background Image 사용
+				span 접근성 X | 성능 O
+				p.desc CSS 배경이미지 기법(<a href="http://darum.daum.net/convention/css/css_ir" target="_blank">Phark Method &amp; WA IR</a>)을 사용한 경우, Windows 고대비 모드에서는 화면에 배경 이미지가 표시되지 않아 접근성 준수에 문제가 됩니다.
+				a.btn(
+					href="http://naver.com"
+					role="button"
+					style="text-indent: -9999em"
+				) 검색
+			div
+				h2 CSS Background Image &amp; improveIR.js 사용
+				span 접근성 O | 성능 O
+				p.desc Windows 고대비 모드에서 CSS 배경이미지 기법이 가지는 접근성 준수 문제를 해결하기 위해서 스크립트(improveIR.js)를 사용하여 Windows 고대비 모드인지를 체크하여 화면에 배경이미지 대신 텍스트를 보여줘 접근성을 준수할 수 있습니다.
+				a.btn.ir(href="http://naver.com", role="button") 검색
+				p.desc 버튼 모양이 화면에 보이도록 처리된 class 모듈(ir-look)이 추가된 경우, 화면에 텍스트 뿐만 아니라 버튼 모양까지 그려집니다.
+				a.btn.ir.ir-look(href="", role="button") 검색
