@@ -1,0 +1,97 @@
+/* line 2, ../_demo.sass */
+body {
+  margin: 0;
+  font: 12px/1.5 "Nanum Gothic", Dotum;
+  letter-spacing: -0.02em;
+  background: #fff;
+}
+
+/* line 8, ../_demo.sass */
+#demo {
+  margin: 1em;
+}
+/* line 11, ../_demo.sass */
+#demo div {
+  margin-bottom: 3em;
+}
+/* line 14, ../_demo.sass */
+#demo h2 {
+  margin-top: 0.03em;
+  margin-bottom: 0.09em;
+  font-size: 2em;
+}
+/* line 19, ../_demo.sass */
+#demo span {
+  background: #25a04d;
+  color: #fff;
+  padding: 0.3em 0.8em;
+}
+/* line 24, ../_demo.sass */
+#demo .desc {
+  width: 51em;
+}
+
+/* line 28, ../_demo.sass */
+.dark-theme {
+  background: #399892;
+  color: #fff;
+}
+/* line 33, ../_demo.sass */
+.dark-theme #demo a {
+  color: #c0ece3;
+}
+/* line 35, ../_demo.sass */
+.dark-theme #demo span {
+  background: #136362;
+}
+
+/* line 39, ../_demo.sass */
+a.btn {
+  cursor: pointer;
+  display: inline-block;
+  background: url(../images/btn-search.jpg);
+  width: 52px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* line 2, ../_ir-demo.sass */
+.ir {
+  overflow: hidden;
+  text-indent: -9999em;
+}
+
+/* line 7, ../_ir-demo.sass */
+.no-img .ir {
+  overflow: auto;
+  text-indent: 0;
+}
+/* line 11, ../_ir-demo.sass */
+.no-img .ir.ir-look {
+  display: inline-block;
+  border: 1px solid;
+  border-radius: 4px;
+  transition: all 2s;
+}
+
+/* line 18, ../_ir-demo.sass */
+#win-HC-user-message {
+  position: fixed;
+  top: 0.5em;
+  right: 0.5em;
+  width: 21em;
+  margin: 0;
+  padding: 1em;
+  background: #000;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+/* line 28, ../_ir-demo.sass */
+.no-img #win-HC-user-message {
+  max-height: 55px;
+  border: 1px solid;
+}
+
+/*# sourceMappingURL=style.css.map */
