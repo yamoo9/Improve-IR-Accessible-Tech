@@ -73,10 +73,9 @@ a.btn {
   display: inline-block;
   border: 1px solid;
   border-radius: 4px;
-  transition: all 2s;
 }
 
-/* line 18, ../_ir-demo.sass */
+/* line 17, ../_ir-demo.sass */
 #win-HC-user-message {
   position: fixed;
   top: 0.5em;
@@ -88,7 +87,7 @@ a.btn {
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
-/* line 28, ../_ir-demo.sass */
+/* line 27, ../_ir-demo.sass */
 .no-img #win-HC-user-message {
   max-height: 55px;
   border: 1px solid;
