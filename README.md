@@ -3,7 +3,9 @@
 Windows High Contrast Mode 감지 및 CSS 활성화 Images 비활성화 상태 체크 감지 스크립트<br>
 ImproveIR.js를 활용한 IR 테크닉 접근성 향상
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/42494622" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/jeehoon/1209-10-2014" title="Improve CSS IR &amp; Sprites Image Techniques for Accessibility" target="_blank">Improve CSS IR &amp; Sprites Image Techniques for Accessibility</a> </strong> from <strong><a href="//www.slideshare.net/jeehoon" target="_blank">yamoo9</a></strong> </div>
+#### 발표 슬라이드
+![Slideshare에 올린 발표자료](http://image.slidesharecdn.com/css-irspritesaccessiblesolutionimproveir-141208181643-conversion-gate02/95/improve-css-ir-sprites-image-techniques-for-accessibility-1-638.jpg?cb=1418084455)
+<p><a href="//www.slideshare.net/jeehoon/1209-10-2014" title="Improve CSS IR &amp; Sprites Image Techniques for Accessibility" target="_blank">Improve CSS IR &amp; Sprites Image Techniques for Accessibility</a> </strong> from <strong><a href="//www.slideshare.net/jeehoon" target="_blank">yamoo9</a></strong></p>
 
 ====
 
