@@ -1,6 +1,6 @@
 #Improve IR(Image Replacement) & Sprites<br>Accessible Technique
 
-__Windows High 고대비 모드(High Contrast Mode) 감지__ 및 **CSS 활성화 Images 비활성화 상태 체크** 감지 스크립트.
+__Windows 고대비 모드(High Contrast Mode)__ 및 **CSS 활성 Images 비활성 상태 체크** 감지 스크립트.<br>
 ImproveIR.js를 활용한 IR 테크닉 접근성 향상
 
 #### 발표 슬라이드
