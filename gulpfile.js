@@ -1,5 +1,5 @@
 // =========================================
-// NPM 모듈(Modules)
+// NPM Modules
 // =========================================
 var gulp         = require('gulp'),
 	rename       = require('gulp-rename'),
