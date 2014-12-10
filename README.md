@@ -23,6 +23,7 @@ demo/style.css 파일의 '.ir', '.ir-look' 클래스를 사용하여 CSS 이미�
 스프라이트 이미지의 웹 접근성을 향상시킬 수 있습니다.
 
 ```css
+/* Phark Method: 참고 URL(darum.daum.net/convention/css/css_ir) */
 .ir {
   overflow: hidden;
   text-indent: -9999em; }
@@ -43,8 +44,8 @@ HTML 마크업은 IR, Sprites 기법을 적용할 요소에 속성 클래스 'ir
 
 ```html
 <!-- 텍스트만 화면에 표시할 경우 -->
-<a href="/" class="btn ir" role="button">검색</a>
+<a href="/" class="btn ir" role="button">버튼</a>
 
 <!-- 텍스트+외형을 화면에 표시할 경우 -->
-<a href="/" class="btn ir ir-look" role="button">검색</a>
+<a href="/" class="btn ir ir-look" role="button">버튼</a>
 ```
