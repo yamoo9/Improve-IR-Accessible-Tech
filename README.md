@@ -13,9 +13,14 @@ ImproveIR.js를 활용한 IR 테크닉 접근성 향상
 
 #### 사용법
 
-build/improveIR.min.js 파일을 HTML 문서 \</head> 앞에서 호출하도록 \<script> 코드를 작성합니다.<br>
-.ir, .ir-look 클래스를 사용하여 CSS 배경이미지 대체 기법의 접근성을 향상시킬 수 있습니다.<br>
-<small>(해당 스타일은 demo/style.css, src/\*.sass 파일 참고)</small>
+build/improveIR.min.js 파일을 HTML 문서 \</head> 앞에서 호출하도록 \<script> 코드를 작성합니다.
+
+```
+<script type="text/javascript" src="build/improveIR.min.js"></script>
+```
+
+demo/style.css 파일의 '.ir', '.ir-look' 클래스를 사용하여 CSS 이미지 대체 기법 및<br>
+스프라이트 이미지의 웹 접근성을 향상시킬 수 있습니다.
 
 ```
 <!-- 텍스트만 화면에 표시할 경우 -->
