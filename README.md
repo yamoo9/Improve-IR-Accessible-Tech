@@ -30,10 +30,7 @@ __ImproveIR.js__를 활용한 IR 테크닉 접근성 향상
 /* Windows OS 고대비(High Contrast) 모드일 경우, 적용되는 스타일 코드 */
 .no-img .ir { overflow: auto; text-indent: 0; }
   
-.no-img .ir.ir-look {
-  display: inline-block;
-  border: 1px solid;
-  border-radius: 4px; }
+.no-img .ir.ir-look { display: inline-block; border: 1px solid; border-radius: 4px; }
 ```
 ====
 HTML 마크업은 IR, Sprites 기법을 적용할 요소에 속성 클래스 `ir` 값을 추가합니다. 간단하죠? ^o^<br>
