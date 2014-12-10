@@ -7,7 +7,7 @@ __ImproveIR.js__를 활용한 IR 테크닉 접근성 향상
 
 <p><a href="//www.slideshare.net/jeehoon/1209-10-2014" title="Improve CSS IR &amp; Sprites Image Techniques for Accessibility" target="_blank">Improve CSS IR &amp; Sprites Image Techniques for Accessibility</a> </strong>, 작성자 <strong><a href="//www.slideshare.net/jeehoon" target="_blank">yamoo9</a></strong></p>
 
-![발표 슬라이드 커버](http://image.slidesharecdn.com/css-irspritesaccessiblesolutionimproveir-141208181643-conversion-gate02/95/improve-css-ir-sprites-image-techniques-for-accessibility-1-638.jpg "발표 슬라이드 커버")
+![발표 슬라이드 커버](http://image.slidesharecdn.com/css-irspritesaccessiblesolutionimproveir-141208181643-conversion-gate02/95/improve-css-ir-sprites-image-techniques-for-accessibility-1-638.jpg "Improve CSS IR & Sprites Image Techniques for Accessibility 발표 슬라이드 커버")
 
 ====
 
