@@ -1,7 +1,7 @@
 #Improve IR(Image Replacement) & Sprites<br>Accessible Technique
 
-__Windows High 고대비 모드(High Contrast Mode) 감지__ 및 **CSS 활성화 Images 비활성화 상태 체크** 감지 스크립트.<br>
-__ImproveIR.js__를 활용한 IR 테크닉 접근성 향상
+__Windows High 고대비 모드(High Contrast Mode) 감지__ 및 **CSS 활성화 Images 비활성화 상태 체크** 감지 스크립트.
+ImproveIR.js를 활용한 IR 테크닉 접근성 향상
 
 #### 발표 슬라이드
 
@@ -20,8 +20,8 @@ __ImproveIR.js__를 활용한 IR 테크닉 접근성 향상
 <script type="text/javascript" src="build/improveIR.min.js"></script>
 ```
 ====
-`demo/style.css` 파일의 `.ir`, `.ir-look` 클래스를 사용하여 __CSS 이미지 대체 기법 및<br>
-스프라이트 이미지의 웹 접근성을 향상__시킬 수 있습니다.
+`demo/style.css` 파일의 `.ir`, `.ir-look` 클래스를 사용하여 CSS 이미지 대체 기법 및 스프라이트 이미지의
+웹 접근성을 향상시킬 수 있습니다.
 
 ```css
 /* Phark Method: 참고 URL(darum.daum.net/convention/css/css_ir) */
