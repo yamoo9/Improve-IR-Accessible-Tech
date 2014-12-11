@@ -21,7 +21,7 @@ ImproveIR.js를 활용한 IR 테크닉 접근성 향상
 ```
 ====
 
-`demo/style.css` 파일의 `.ir`, `.ir-look` 클래스를 사용하여<br>
+`demo/css/style.css` 파일의 `.ir`, `.ir-look` 클래스를 사용하여<br>
 CSS 이미지 대체 기법 및 스프라이트 이미지의 웹 접근성을 향상시킬 수 있습니다.
 
 ```css
