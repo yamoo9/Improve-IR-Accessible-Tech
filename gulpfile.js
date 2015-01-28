@@ -156,6 +156,6 @@ gulp.task('coffee', function() {
 		.pipe( gulpif(env === false, sourcemaps.init()) )
 		.pipe(coffee(config.coffee))
 		.pipe( gulpif(env === false, sourcemaps.write()) )
-		.pipe(gulp.dest( config.demoDir+'js' ))
+		.pipe(gulp.dest( config.inputDir+'js' ))
 		.pipe(connect.reload());
 });
