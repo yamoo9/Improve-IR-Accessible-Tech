@@ -80,7 +80,7 @@
      */
     global.improveIR = function() {
         _body = doc.body;
-        if ( !checkMobile() && (checkImgHide() || checkWinHC()) ) {
+        if ( !checkMobile && (checkImgHide() || checkWinHC()) ) {
             addClass(_body, 'no-img');
         }
     };
