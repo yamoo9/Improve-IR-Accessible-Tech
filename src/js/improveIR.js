@@ -8,7 +8,7 @@
 
     // 스코프 함수 내부에서 사용되는 지역 변수 선언
     var UA = global.navigator.userAgent,
-        _body, _img, checkImgHide, checkWinHC, isLtIE8, checkMobile;
+        _body, _img, checkImgHide, checkWinHC, isLtIE8, checkMobile, checkOSX_Safari;
 
     /*  ==========================================================================
         로컬 함수
@@ -71,17 +71,28 @@
         }
     })(navigator.userAgent||navigator.vendor||window.opera);
 
+    /**
+     * 데스크탑 OSX Safari 체크 함수
+     */
+    checkOSX_Safari = (function(a,o){
+        if( !checkMobile && (/safari/i.test(a))&&(/apple/i.test(o)) ){ return true; }
+    })(navigator.userAgent, navigator.vender);
+
     /*  ==========================================================================
         글로벌 함수
         ========================================================================== */
     /**
      * 외부에서 접근 가능한 함수 - improveIR
      * 데스크탑일 경우에만 <body> 요소에 no-img 클래스 추가
+     * 데스크탑 OSX Safari일 경우, 제외
      */
     global.improveIR = function() {
         _body = doc.body;
-        if ( !checkMobile && (checkImgHide() || checkWinHC()) ) {
-            addClass(_body, 'no-img');
+        console.log(!checkMobile && checkImgHide());
+        if ( !checkMobile && checkWinHC() ) {
+            if (!checkOSX_Safari) {
+                addClass(_body, 'no-img');
+            }
         }
     };
 
